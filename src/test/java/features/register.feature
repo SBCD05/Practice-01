@@ -13,3 +13,10 @@ When User2 is register with following deatails
 |Arjun2|abcdef2|arjun2@abcd.com|America2|2234567890|
 Then User2 Successfully Registered
 And Verify thet Succesfully Registered is displayed
+
+Scenario: New User3 Registerion
+Given User3 is on the landing Page 
+When User3 is register with following deatails 
+|Arjun2|abcdef2|arjun2@abcd.com|America2|2234567890|
+Then User3 Successfully Registered
+And Verify thet Succesfully Registered is displayed
